@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style1.css">
+	<title>myPortfolio_gallery</title>
+</head>
+<body>
+<!-- Heading Name -->
+<div class="heading">
+	<h2>Фотки моих работ из разных проектов</h2>   
+</div>
+
+
+
+	<!-- Image Gallery section all image in one div -->
+	<div class="gallery">
+<!-- 1 слой -->
+<img src="img/flora/Дизайн главной страницы.png"
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/Фаленопсис Микс1.png"
+alt="Image 3" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/Схема переходов частично.png" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/МИЛЬТОНИЯ МИКС.png" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/Дизайн формы регистрации.png" 
+alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/ДЕНДРОБИУМ САНОК АННА ГРИН.jpg"
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<!-- 2 слой -->
+<img src="img/calculator/2023-12-04_09-34-09.png" 
+alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src="img/calculator/2023-12-04_09-37-47-1.png" 
+alt="Image 6" class="gallery-img" onclick="showImage(src)">
+
+<img src="img/calculator/2023-12-04_09-36-15.png" 
+alt="Image 10" class="gallery-img" onclick="showImage(src)">
+<img src="img/calculator/2023-12-04_09-37-47-2.png"
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+
+<img src="img/figma1.png"
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src="img/figma2.png" 
+alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<!-- 3 слой -->
+<img src="img/figma3.png" 
+alt="Image 10" class="gallery-img" onclick="showImage(src)">
+<img src="img/todolist/Скрин-шот моего Списка дел.png" 
+alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src="img/todolist/2023-12-04_09-30-52-1.png"
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src="img/todolist/2023-12-04_09-29-41.png"
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+
+<img src="img/flora/2023-11-09_09-45-56.png" 
+alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/2023-11-09_09-51-14.png"
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+<!-- 4 слой -->
+<img src="img/flora/2023-11-09_09-43-20.png" 
+alt="Image 10" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/2023-11-09_09-41-26.png" 
+alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/2023-11-09_09-44-38.png"
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/2023-11-09_09-46-48.png"
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+
+<img src="img/flora/2023-11-09_09-48-36.png" 
+alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src="img/flora/2023-11-09_09-49-18.png"
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+
+</div>
+
+<!-- Image containter where image will show in big size -->
+	<div class="image-popup-container" id="imagePopup">
+		<span class="close-button" onclick="closeImage()">×</span>
+		<img src="" alt="Popup Image" id="popupImage">
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
